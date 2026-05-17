@@ -42,6 +42,7 @@ public class Login123 extends HttpServlet {
 			}
 		}
 		catch(Exception e) {
+			e.printStackTrace();
 			
 		}
 	}
